@@ -18,7 +18,7 @@
             style="@style/NameStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@={myName.name}"
+            android:text="@{myName.name}"
             android:textAlignment="center" />
 
         <EditText
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
             android:paddingBottom="@dimen/small_padding"
-            android:text="@={myName.nickName}"
+            android:text="@{myName.nickName}"
             android:textAlignment="center"
             android:visibility="gone" />
 
